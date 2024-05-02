@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.grid-container{
+  padding: 0 !important;
+}
+
+.App {
+  /* background-color: #f0f2f5; */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.facebook-post {
+  background-color: #ffffff;
+  width: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.FacebookPost-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.FacebookPost-date {
+  font-size: 0.875rem;
+  color: #808080;
+}
+
+.FacebookPost-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.FacebookPost-image {
+  flex: 1;
+  max-width: 48%;
+  margin-right: 1%;
+}
+
+.FacebookPost-image-caption {
+  font-size: 0.875rem;
+  color: #333;
+  margin-top: 5px;
+}
+.post-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.post-header img {
+  width: 50px;
+}
+
+.post-footer{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border-bottom: 1px solid black;
+}
+
+.like-button , .like-button:active , .like-button:focus , .like-button:hover{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.emoji-menu{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.emoji-menu-svg{
+  width: 3em;
+  height: 1.5em;
+}
